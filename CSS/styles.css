@@ -159,7 +159,7 @@ hr{
     width: 15%;
     border: none;
     outline: none;
-    background-color: rgb(34, 189, 124);
+    background-color: rgb(0, 119, 182);
     font-weight: 700;
     border-radius: 60px;
     margin: 30px auto;
@@ -172,41 +172,6 @@ hr{
     color: white;
 }
 
-:root {
-    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
-  }
-  
-
-  
-  .card {
-    background:  #f0f0f0;
-    border: 1px solid #dd2476;
-    color: rgba(22, 22, 22, 0.8);
-    margin-bottom: 2rem;
-  }
-  
-  .btn {
-    border: 5px solid;
-    border-image-slice: 1;
-    background: var(--gradient) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    border-image-source:  var(--gradient) !important; 
-    text-decoration: none;
-    transition: all .4s ease;
-  }
-  
-  .btn:hover, .btn:focus {
-    background: var(--gradient) !important;
-    -webkit-background-clip: none !important;
-    -webkit-text-fill-color: #fff !important;
-    border: 5px solid #fff !important; 
-    box-shadow: #222 1px 0 10px;
-    text-decoration: underline;
-  }
-
-
-  
 /*Modulo Nosotros*/
 
 .info-empresa{
@@ -310,8 +275,18 @@ hr{
     height: auto;
     text-align: center;
     margin-bottom: 4rem;
+    background-color: aqua;
 }
 
+.imagenes-planes{
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.mask{
+    width: 100%;
+}
 .col-plan {
     display: inline-block;
     margin: 20px 30px;
@@ -394,12 +369,59 @@ hr{
     color: white;
 }
 
+.footer-planes{
+    margin-bottom: ;
+    background-color: #222;
+}
 /*Modulo Alimentos*/
+
+:root {
+    --gradient: linear-gradient(to left top, #697f7b 10%, #6790e3 90%) !important;
+  }
+  
+
+  
+  .card {
+    background:  #f0f0f0;
+    border: none;
+    color: rgba(22, 22, 22, 0.8);
+    margin-bottom: 2rem;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source:  var(--gradient) !important; 
+    text-decoration: none;
+    transition: all .4s ease;
+  } 
+  .btn:hover, .btn:focus {
+    background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important; 
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
+
 
 
 
 
 /*Modulo Contacto*/
+
+.formulario-contacto {
+    padding: 40px;
+    width: 60%;
+  
+    justify-content: center;
+    margin:20px  auto;
+}
+
 
 /* pie de pagina general*/
 
